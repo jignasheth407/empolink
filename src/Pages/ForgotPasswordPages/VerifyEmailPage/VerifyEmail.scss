@@ -1,0 +1,16 @@
+@import '../../../utils//StylesUtils/variables.scss';
+
+.verifyEmailHeading{
+    font-family:  $libreFranklin;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.55;
+    letter-spacing: 0.44px;
+    color: #333333;
+    margin-top: 52.8px;
+}
+
+.verifyEmailHeadingWrapper{
+    padding-top: 52.8px;
+    padding-bottom: 36.5px;
+}

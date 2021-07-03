@@ -1,0 +1,125 @@
+@import "../../utils//StylesUtils/variables.scss";
+
+@mixin wideCardListHeadings {
+    font-family: $libreFranklin;
+    font-size: $fontSize20pxVw;
+    font-weight: bold;
+    color: $fontColorBlack;
+    display: flex;
+  }
+
+.advancedSearchHeading {
+    font-family: $libreFranklin;
+    font-size: $fontSize36pxVw;
+    font-weight: 600;
+    line-height: 0.67;
+    color: #707070;
+    margin-top: 6.5vw;
+    margin-left: 5.416vw;
+}
+
+.specialityDropdownLabel {
+    font-family: $libreFranklin;
+    font-size: $fontSize18pxVw;
+    font-weight: 600;
+    color: #1c1c1c;
+    margin-left: 1.2vw;
+}
+
+.arrowDropdownIcon {
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: -0.2vw;
+    font-size: 1.25vw;
+}
+.displayDynamicRateStyles {
+    font-family: $libreFranklin;
+    font-size: $fontSize18pxVw;
+    font-weight: 600;
+    line-height: 0.83;
+    letter-spacing: 0.72px;
+    color: #656363;
+    margin-left: 0.5vw;
+}
+
+.fieldOfWorkSelected {
+    font-family: $libreFranklin;
+    font-size: $fontSize22pxVw;
+    text-align: left;
+    color: #707070;
+    margin-left: 5.41vw;
+}
+
+.fieldOfWorkHeading {
+    font-family: $libreFranklin;
+    font-size: $fontSize22pxVw;
+    font-weight: 600;
+    color: #1c1c1c;
+    margin-left: 5.41vw;
+    margin-top: 3.489vw;
+}
+
+.worldWide{
+    border-radius: $fontSize16pxVw;
+    font-size: $fontSize14pxVw;
+    line-height: 1.43;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #f2f2f2;
+    margin-left: 5.41vw;
+    padding: 6px 35px 7px 12px;
+    width: 1.5vw;
+    margin-top: 1.61vw;
+}
+
+.maps{
+    width: 18.8vw;
+    height: 17.86vw;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-left: 5.41vw;
+    margin-top: 1.61vw;
+}
+
+.hourlyRateSlider{
+    margin-left: 5.41vw;
+    margin-top: 3.489vw;
+}
+
+.ratingSlider{
+    margin-left: 5.41vw;
+    margin-top: 3.489vw;
+}
+
+.experienceSlider{
+    margin-left: 5.41vw;
+    margin-top: 3.489vw;
+}
+
+.topProfileSearchBar{
+    width: 50vw;
+    margin-top: 6.5vw;
+    margin-left: 4.01vw;
+    height: 4.79vw;
+    border-radius: $fontSize20pxVw;
+    background-color: #f2f2f2;
+}
+
+.wideCardHeading{
+
+    display: inline-flex;
+
+
+    .employeeNameHeading{
+        @include wideCardListHeadings;
+    }
+    .experianceHeading{
+        @include wideCardListHeadings;
+    }
+    .scoreHeading{
+        @include wideCardListHeadings;
+    }
+    .hourlyRateHeading{
+        @include wideCardListHeadings;
+    }
+}

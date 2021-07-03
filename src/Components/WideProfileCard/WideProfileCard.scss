@@ -1,0 +1,62 @@
+@import "../../utils/StylesUtils/variables.scss";
+
+.wideCardNumberOfRatings {
+    font-family: $libreFranklin;
+    font-size: $fontSize20pxVw;
+    color: $fontColor9a9a9a;
+    display: inline-block;
+}
+
+.wideCardYearsExperiance {
+    font-family: $libreFranklin;
+    font-size: $fontSize20pxVw;
+    color: $fontColorBlack;
+    display: inline-block;
+}
+
+.wideCardProfileDetails {
+    display: inline-block;
+
+    .wideCardCheckbox {
+        display: inline-block;
+        position: absolute;
+        margin: -11px;
+        padding-top: 2.39583vw;
+    }
+    .wideCardProfilePicture {
+        display: inline-block;
+        margin-left: 2.2083vw;
+        margin-top: 1.35vw;
+
+        .wideCardImg {
+            display: inline-block;
+            height: 3.64583vw;
+            width: 3.64583vw;
+            border-radius: 50%;
+        }
+    }
+    .wideCardProfileInfo {
+    display: inline-block;
+    position: absolute;
+    margin-top: 2.448vw;
+    margin-left: 0.7vw;
+
+        .wideCardInfoName {
+            opacity: 0.78;
+            font-family: $libreFranklin;
+            font-size: $fontSize20pxVw;
+            font-weight: 600;
+            color: $fontColorBlack;
+        }
+        .wideCardInfoDesignation {
+            font-family: $libreFranklin;
+            font-size: $fontSize16pxVw;
+            color: $fontColor9a9a9a;
+        }
+        .wideCardInfoLocation {
+            font-family: $libreFranklin;
+            font-size: $fontSize16pxVw;
+            color: $fontColor9a9a9a;
+        }
+    }
+}

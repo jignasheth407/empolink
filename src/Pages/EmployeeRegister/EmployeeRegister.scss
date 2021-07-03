@@ -1,0 +1,33 @@
+@import "../../utils/StylesUtils/variables.scss";
+
+.empolink-heading {
+  color: white;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 110px;
+  font-size: 35px;
+  letter-spacing: 2.84px;
+  font-family: $libreFranklin;
+}
+
+.signUpHeading {
+  font-family: $libreFranklin;
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0px;
+  padding-top: 111px;
+  color: #414141;
+}
+
+.signUpSubHeading {
+  font-family: $libreFranklin;
+  font-size: 26px;
+  color: #707070;
+  margin-top: 12px;
+}
+// .custom__switch .MuiFormControlLabel-label {
+//   width: 40%;
+// }
+p {
+  margin: 0;
+}

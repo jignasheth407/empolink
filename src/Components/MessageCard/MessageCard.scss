@@ -1,0 +1,77 @@
+@import "../../utils/StylesUtils/variables.scss";
+
+.cardWrapper {
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.backgroundOfPage {
+  background-color: $themeBackgroundColor;
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+}
+.secondaryBackgroundOfPage {
+  background-color: $themeSecondaryBackgroundColor;
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+}
+
+.bottomHeadingLine {
+  width: 100%;
+  height: 1px;
+  opacity: 0.38;
+  background-color: #707070;
+}
+
+.forgotPasswordHeadingCard {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  font-family: $libreFranklin;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.empolinkCardBackgroundHeading {
+  margin-left: 5.729%;
+  padding-top: 110px;
+  font-size: 35px;
+  position: absolute;
+  font-family: $libreFranklin;
+  font-weight: bold;
+  letter-spacing: 2.84px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.close {
+  position: absolute;
+}
+//   .close:hover {
+//     opacity: 1;
+//   }
+.close:before,
+.close:after {
+  position: absolute;
+  content: " ";
+  height: 17px;
+  width: 3px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.closeWrapper {
+  float: right;
+  color: #454545;
+  margin-top: -54px;
+  margin-right: 64px;
+  cursor: pointer;
+}
